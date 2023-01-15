@@ -8,7 +8,7 @@
 }
 
 .container {
-    padding: 100px 200px;
+    padding: 80px 200px;
 }
 .flex {
     display: flex;
@@ -16,7 +16,8 @@
     align-items: center;
 }
 p {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 300;
     color: rgb(77, 75, 75);
 }
@@ -134,10 +135,10 @@ header {
 
 .year10 {
     background-color: orange;
-    padding: 30px 40px;
+    padding: 40px 40px;
     border: none;
     border-radius: 5px;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 40px;
     font-weight: 600;
     color: aliceblue;
@@ -146,7 +147,7 @@ header {
     left: -30px;
 }
 .fact-content {
-    width: 30%;
+    width: 40%;
     margin-bottom: 100px;
 }
 .fact-content h1 {
@@ -170,8 +171,43 @@ header {
     color: rgb(68, 66, 66);
 }
 .fact-list h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: rgb(117, 116, 116);
 }
+.sponsors-content {
+    margin-bottom: 80px;
+    flex-direction: column;
+}
+.sponsors-content p {
+    width: 500px;
+    
+    text-align: center;
+}
+.sponsors-content h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
 
+}
+.sponsors-images {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 20px 0px;
+}
+.copy-content h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
