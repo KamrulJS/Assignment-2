@@ -269,40 +269,4 @@ header {
 
 /* ---------------  Mobile 360 ------------------- */ 
 
-@media (min-width: 365px) { 
-
-        .header {
-            width: 100%;
-        }
-        ..container {
-            width: 100%;
-        }
-
-        ..nav h1 {
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        .gtitle .content h1 {
-            font-size: 20px;
-            line-height: 20px;
-            
-        }
-        ..title .content p {
-            font-size: 16px;
-            line-height: 20px;
-
-        }
-
-
-
-
-
-
-
-
-
-}
+@media (min-width: 365px) 
