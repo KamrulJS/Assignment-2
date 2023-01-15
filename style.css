@@ -75,7 +75,7 @@ header {
 }
 
 .btn {
-    padding: 13px 30px;
+    padding: 15px 35px;
     background-color: rgb(255, 174, 1);
     border: none;
     margin-top: 30px;
@@ -91,19 +91,30 @@ header {
 }
 
 .images-feature {
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column
 
 }
 .feature-contents {
-    width: 100%;
     padding-left: 50px;
 }
-.feature-contents .q {
-   color: aliceblue;
+
+.feature-contents h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    width: 400px;
+
+}
+.feature-contents p {
+    width: 600px;
+
 }
 .feature-contents .our {
    color: black;
 }
+
 
 
 .title-love {
@@ -164,6 +175,11 @@ header {
     padding: 50px 40px;
     border: 2px solid orange;
     border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.fact-list:hover {
+        transform: translateY(-7px);
+        box-shadow: 0px 70px 40px -60px rgba(0,0,0,0.61);
 }
 .fact-list h1 {
     font-size: 35px;
@@ -210,4 +226,29 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: black;
+}
+
+.client-community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(160, 245, 216);
+    border-radius: 10px;
+    padding: 100px 100px;
+}
+.client-community h1 {
+    width: 650px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+.client-community p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    color: black;
+
 }
