@@ -32,8 +32,8 @@ header {
 }
 
 .nav h1 {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 .menu .item {
@@ -59,8 +59,10 @@ header {
 
 }
 .content h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 15px;
     color: black;
     display: flex;
     justify-content: center;
@@ -250,5 +252,34 @@ header {
     font-weight: 500;
     line-height: 50px;
     color: black;
+
+}
+
+
+
+
+/* ---------------  Mobile 360 ------------------- */ 
+
+@media (min-width: 365px) { 
+
+        .container {
+            width: 100%;
+        }
+
+        .nav h1 {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+
+
+
+
+
+
 
 }
